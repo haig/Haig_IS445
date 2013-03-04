@@ -1,0 +1,102 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+	text-align: center;
+}
+
+h3 {
+	color: purple;
+	text-align: center;
+}
+
+h3.about {
+	text-align: left;
+}
+
+hr {
+	 height: 8px;
+	 background-color: #00FF00;
+}
+
+.selfPhoto {
+    width: 400px;
+    height: 536px;
+}
+
+nav {
+	text-align: right;
+	margin: 2em;
+}
+
+a {
+	margin: 0 20px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+address {
+	display: inline;
+}
+
+footer {
+	border-top-style: double;
+	padding-top: 5px;
+	font-size: 14px;	
+	padding-bottom: 20px;
+}
+
+.footerPadding {
+	margin-left: 20px;
+}
+
+form {
+	border-style: outset;
+    padding: 10px;
+    border-color: green;
+	
+}
+
+#fullName, #email, #phone {
+	width: 175px;
+	vertical-align: middle;	
+}
+	
+#arrivalDate, #arrivalTime, #roomType, #numOfNights, #numOfGuests {
+	vertical-align: middle;
+}
+
+#promoCode {
+	width: 50px;
+	vertical-align: middle; 
+}
+
+#labelPadding {
+	padding-left: 15px;
+}
+
+.selfPhoto {
+	float: right;
+	width: 200px;
+	height: 200px;
+}
+
+section#aboutMe {
+	width: 380px;
+	
+}

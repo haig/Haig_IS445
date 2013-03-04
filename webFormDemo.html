@@ -1,70 +1,57 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Haig Z. - IS445 HW #2 - Web Form Demo</title>
-    <style type="text/css">
-        .pageTitle {
-            text-align: center;
-            font-size: 48px;
-        }
-        .selfPhoto {
-            width: 400px;
-            height: 536px;
-        }
-        .aboutHeadings {
-            font-size: x-large;
-        }
-    </style>
+    <title>Haig Z. - IS445 HW #3 - Web Form Demo</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="width: 1070px; margin: 10px auto">
-
+<body>
 <header>
-    <h1 class="pageTitle"><strong>Zaher, Haig Homework 2</strong></h1>
-    <hr style="height: 7px; background-color: #41A317;" />
+    <h1>Zaher, Haig Homework 3</h1>
+    <hr />
      <nav>
-        <p>
         <a href="index.html">Home</a>
         <a href="webFormDemo.html">Web Form Demo</a>
         <a href="aboutMe.html">About Me</a>
-        </p>
-    </nav>
+     </nav>
 </header>
-   <p><span class="aboutHeadings"><strong>Welcome to my Web Form</strong></span></p>
+
+   <h2>Welcome to my Web Form</h2>
      
-   <p><strong>A demo form for hotel room reservation</strong></p>
+   <h3>A demo form for hotel room reservation</h3>
       <form action="mailto:haig.zaher@gmail.com" method="post">
-       <fieldset style="width: 575px;">
+       <fieldset id="labelPadding">
 		<legend>Customer Information</legend>  <br />
-           &nbsp;&nbsp;<label for="fullName">Full name: </label><input type="text" name="fullName" id="fullName" placeholder="Firstname, Lastname" maxlength="30" tabindex="1" style="width: 175px; vertical-align: middle;" required="required" /><br />
-	       &nbsp;&nbsp;<label for="email">Email address: </label><input type="email" name="email" id="email" tabindex="2" style="width: 175px; vertical-align: middle;" required="required" /><br />
-           &nbsp;&nbsp;<label for="phone">Phone: </label><input type="tel" name="phone" id="phone" tabindex="3" style="width: 175px; vertical-align: middle;"" required="required" maxlength="10" placeholder="Enter 10 digit number" pattern="[0-9]{10}" /><br />     
+        
+           <label for="fullName">Full name: </label><input type="text" name="fullName" id="fullName" placeholder="Firstname, Lastname" maxlength="30" tabindex="1" required /><br />
+	       <label for="email">Email address: </label><input type="email" name="email" id="email" tabindex="2" required /><br />
+           <label for="phone">Phone: </label><input type="tel" name="phone" id="phone" tabindex="3" required maxlength="10" placeholder="Enter 10 digit number" pattern="[0-9]{10}" /><br />
+          
        <br />
        </fieldset> 
        <br />
 
-       <fieldset style="width: 575px;">
+       <fieldset id="labelPadding">
 		<legend>Room Information</legend> <br />
-           &nbsp;&nbsp;<label for="arrivalDate">Arrival date: </label><input type="date" name="arrivalDate" id="arrivalDate" tabindex="4" style="vertical-align: middle" required="required" /><br />
-	       &nbsp;&nbsp;<label for="arrivalTime">Arrival time: </label><input type="time" name="arrivalTime" id="arrivalTime" tabindex="5" style="vertical-align: middle" required="required" /><br />
-           &nbsp;&nbsp;<label for="roomType">Select a room type: </label><select name="roomType" id="roomType" tabindex="6" style="vertical-align: middle" required="required" />
+           <label for="arrivalDate">Arrival date: </label><input type="date" name="arrivalDate" id="arrivalDate" tabindex="4" required /><br />
+	       <label for="arrivalTime">Arrival time: </label><input type="time" name="arrivalTime" id="arrivalTime" tabindex="5" required /><br />
+           <label for="roomType">Select a room type: </label><select name="roomType" id="roomType" tabindex="6" required />
            <option>Luxury</option>
            <option>Standard</option>
            <option>Economic</option>
            </select>
             <br /> 
-           &nbsp;&nbsp;<label for="numOfNights">Number of nights (valid number is from 1 to 30): </label><input type="number" name="numOfNights" id="numOfNights" value="1" min="1" max="30" tabindex="7" style="vertical-align: middle" required="required" /><br />   
-           &nbsp;&nbsp;<label for="numOfGuests">Number of guests (the maximum guests are 3): </label><input type="number" name="numOfGuests" id="numOfGuests" value="0" min="0" max="3" tabindex="8" style="vertical-align: middle" required="required" /><br />       
+           <label for="numOfNights">Number of nights (valid number is from 1 to 30): </label><input type="number" name="numOfNights" id="numOfNights" value="1" min="1" max="30" tabindex="7" required /><br />   
+           <label for="numOfGuests">Number of guests (the maximum guests are 3): </label><input type="number" name="numOfGuests" id="numOfGuests" value="0" min="0" max="3" tabindex="8" required /><br />       
        <br />
        </fieldset> 
        <br />
        
-       <fieldset style="width: 575px;">
+       <fieldset id="labelPadding">
            <legend>Other Information</legend><br />
-            &nbsp;&nbsp;<label for="promoCode">Promo code: </label><input type="text" name="promoCode" id="promoCode" tabindex="9" style="width: 50px; vertical-align: middle" pattern="[A-Za-z0-9]{4}" maxlength="4" title="Promo codes are 4 alpha numeric characters long."  /><br />
-            &nbsp;&nbsp;<label for="specialNote">Special Note: </label><textarea name="specialNote" id="specialNote" rows="5" cols="40" tabindex="10" placeholder="Enter your special notes here"></textarea><br />
+            <label for="promoCode">Promo code: </label><input type="text" name="promoCode" id="promoCode" tabindex="9" pattern="[A-Za-z0-9]{4}" maxlength="4" title="Promo codes are 4 alpha numeric characters long."  /><br />
+            <label for="specialNote">Special Note: </label><textarea name="specialNote" id="specialNote" rows="5" cols="40" tabindex="10" placeholder="Enter your special notes here"></textarea><br />
            <br />
 
 
@@ -79,9 +66,11 @@
     <br />
 
 <footer>
-    <p>Contact information<br />
-    <a href="mailto:haig.zaher@gmail.com"><em>Email: haig.zaher@gmail.com</em></a><br />
-    <em>Phone: (714) 651-8921</em><br /></p>
+    Haig Zaher&copy; Contact information
+    <address>
+   		<span class="footerPadding"><a href="mailto:haig.zaher@gmail.com">Email: haig.zaher@gmail.com</a></span>
+    	<span class="footerPadding">Phone: (714) 651-8921</span>
+    </address>
 </footer>
 
 </body>
