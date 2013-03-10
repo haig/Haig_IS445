@@ -1,0 +1,56 @@
+﻿body {
+	padding-right: 20%;
+	padding-left: 20%;
+	text-align: center;
+}
+
+header {
+	height: 50px;
+	background-color: blue;
+	color: white;
+}
+
+nav {
+	height: 30px;
+	background-color: green;	
+}
+
+nav a:link, a:visited, a:hover, a:active {
+	text-decoration: underline;
+	color: white;
+	padding-right: 10px;
+}
+
+article {
+	float: left;
+	width: 67%;
+	height: 300px;
+	background-color: pink;
+	text-align: center;
+	color: white;
+}
+
+section {
+	height: 35%;
+	margin-top: 20px;
+	background-color: brown;
+	text-align: center;
+	color: white;
+}
+
+aside {
+	float: right;
+	width: 33%;
+	height: 300px;
+	background-color: cyan;
+	text-align: center;
+	color: white;
+}
+
+footer {
+	height: 30px;
+	clear: both;
+	background-color: green;
+	color: white;
+	text-align: center;
+}
