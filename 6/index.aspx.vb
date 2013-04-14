@@ -6,7 +6,7 @@ Partial Class _Default
         Result.Text = "<h3>Summary of input</h3>"
         Result0.Text = "User name: " & name.Text
         Result1.Text = "Credit card type: " & cardType.SelectedValue
-        Result2.Text = "Expiration Date: " & DateTime.Now.ToString()
+        Result2.Text = "Expiration Date: " & ExpirationDate.SelectedDate.ToShortDateString()
         Result3.Text = "will be used for the payment."
 
 
