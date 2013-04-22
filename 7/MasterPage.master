@@ -1,0 +1,41 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>IS 545 - HW #7</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        <header>
+            <h1>Zaher, Haig Homework 7</h1>
+    	        <hr />
+               
+        </header>
+        <section id="MainContent">
+                <nav>
+                <a href="index.aspx">Home</a>
+                <a href="form.aspx">Web Form Demo</a>
+                <a href="about.aspx">About Me</a>
+                </nav>
+                <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+         
+        </section>
+           <br />
+        <footer>
+            Haig Zaher&copy;
+            <address>
+   		        <span class="footerPadding"><a href="mailto:haig.zaher@gmail.com">Email: haig.zaher@gmail.com</a></span>
+    	        <span class="footerPadding">Phone: (714) 651-8921</span>
+            </address>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

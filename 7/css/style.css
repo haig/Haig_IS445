@@ -1,0 +1,80 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+	text-align: center;
+}
+
+h3 {
+	color: purple;
+	text-align: center;
+}
+
+h3.about {
+	text-align: left;
+}
+
+hr {
+	 height: 8px;
+	 background-color: #00FF00;
+}
+
+nav {
+	text-align: right;
+	margin: 2em;
+}
+
+a {
+	margin: 0 20px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+address {
+	display: inline;
+}
+
+footer {
+	border-top-style: double;
+	padding-top: 5px;
+	font-size: 14px;	
+	padding-bottom: 20px;
+}
+
+.footerPadding {
+	margin-left: 20px;
+}
+
+#MainContent {
+	border-style: outset;
+    padding: 10px;
+    border-color: green;
+	
+}
+
+
+.selfPhoto {
+	float: right;
+	width: 200px;
+	height: 200px;
+}
+
+section#aboutMe {
+	width: 380px;
+	
+}
