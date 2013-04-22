@@ -4,7 +4,7 @@
     <h2>About Me</h2>
 
     
-    <img alt="My Picture" class="selfPhoto" src="/Photo.jpg" />
+    <img alt="My Picture" class="selfPhoto" src="/7/Photo.jpg" />
     <section id="aboutMe">
         <h3 class="about">Education</h3>
       
