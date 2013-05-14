@@ -22,7 +22,7 @@
                 <DynamicMenuItemStyle BackColor="#009900" />
                 <DynamicSelectedStyle BackColor="#FFFF99" />
             </asp:Menu>
-            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" SiteMapProvider="Web.sitemap" />
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
         </nav>
         <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="TreeView">
                 <LeafNodeStyle HorizontalPadding="15px" />
