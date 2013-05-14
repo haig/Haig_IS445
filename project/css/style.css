@@ -1,0 +1,45 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+    margin-top:20px;
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom:20px;
+  
+}
+.MainMenu {
+	text-transform:uppercase;
+}
+a {
+	margin-right:20px;
+}
+
+.TreeView {
+    float:left;
+}
+
+#MainContent {
+    float:right;
+    width:680px;  
+}
+
+/*
+    #PageWrapper {
+    height: 700px;
+}
+    */
+
+.SiteMapPath {
+    padding-bottom:20px;
+    /*margin-left:-54px;  */
+}
+
+
+

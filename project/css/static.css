@@ -1,0 +1,30 @@
+﻿article {
+	height: 300px;
+	background-color: pink;
+	color: white;
+    text-align: center;
+}
+
+section {
+	height: 100px;
+	background-color: brown;
+	color: white;
+	margin-top: 22px;
+    text-align: center;
+}
+
+aside {
+	width: 226px;
+	height: 250px;
+	background-color: cyan;
+	color: white;
+    text-align: center;
+}
+
+footer {
+	width: 680px;
+	height: 30px;
+	background-color: green;
+	color: white;
+    text-align: center;
+}

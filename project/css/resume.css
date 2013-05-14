@@ -1,0 +1,20 @@
+
+h2 {
+    color: blue;
+	
+}
+
+h3 {
+	color: purple;
+	text-align: center;
+}
+
+h3.about {
+	text-align: left;
+}
+
+.selfPhoto {
+	float: right;
+	width: 200px;
+	height: 200px;
+}

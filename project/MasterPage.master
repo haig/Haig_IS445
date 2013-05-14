@@ -1,0 +1,42 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>IS 545 - Website Project</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        <header>
+            <h1>Haig Zaher's ASP.NET Website in Windows Azure</h1>
+        </header>
+        <nav>
+            <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False" BackColor="#FFC164" Font-Bold="True" Font-Names="Times New Roman" Font-Overline="False" Width="900px">
+                <DynamicHoverStyle BackColor="#6699FF" />
+                <DynamicMenuItemStyle BackColor="#009900" />
+                <DynamicSelectedStyle BackColor="#FFFF99" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </nav>
+        <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="TreeView">
+                <LeafNodeStyle HorizontalPadding="15px" />
+            </asp:TreeView>
+
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="SiteMapPath">
+            </asp:SiteMapPath>
+        <section id="MainContent">
+                        
+            <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+                
+        </section>
+       </div>
+    </form>
+</body>
+</html>
