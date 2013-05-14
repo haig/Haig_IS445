@@ -1,0 +1,43 @@
+﻿
+
+article {
+	position: absolute;
+	width: 25%;
+	top: 220px;
+	height: 300px;
+	background-color: pink;
+	color: white;
+    text-align: center;
+}
+
+section {
+	height: 35%;
+	width: 100%;
+	margin-top: 20px;
+	background-color: brown;
+	color: white;
+    text-align: center;
+}
+
+aside {
+	position: absolute;
+	width: 15.8%;
+	height: 300px;
+	left: 61%;
+	top: 220px;
+	background-color: cyan;
+	color: white;
+    text-align: center;
+}
+
+footer {
+	position: absolute;
+	width: 40.5%;
+	height: 30px;
+	top: 520px;
+	background-color: green;
+	color: white;
+    text-align: center;
+	
+}
+
