@@ -7,6 +7,7 @@
     <title>IS 545 - Website Project</title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -21,7 +22,7 @@
                 <DynamicMenuItemStyle BackColor="#009900" />
                 <DynamicSelectedStyle BackColor="#FFFF99" />
             </asp:Menu>
-            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" SiteMapProvider="Web.sitemap" />
         </nav>
         <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="TreeView">
                 <LeafNodeStyle HorizontalPadding="15px" />
